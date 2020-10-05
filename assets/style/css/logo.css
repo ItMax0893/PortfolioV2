@@ -1,0 +1,57 @@
+body {
+  font: 400 1em/1.5 "Neuton";
+  background: #090d0000;
+  color: rgba(255, 255, 255, 0.25);
+  text-align: center;
+  margin: 0;
+}
+
+.logo_text {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  display: inline-block;
+  border: 4px double #ffce73;
+  border-width: 4px 0;
+  padding: 1.5em 0em;
+  position: absolute;
+  z-index: 2;
+  top: 5%;
+  right: 5%;
+  width: 40em;
+  margin: 0 0 0 -20em;
+  color: #ffce73;
+}
+.logo_text span {
+  font: 700 4em/1 "Oswald", sans-serif;
+  letter-spacing: 0;
+  padding: 0.25em 0 0.325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+  /*ClipBackgroundImage*/
+  background: url(https://cdn.wallpapersafari.com/20/62/t5W2rP.png);
+  background-clip: text;
+  -webkit-background-clip: text;
+  /*AnimateBackgroundImage*/
+  animation: aitf 20s linear infinite;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 20s linear infinite;
+  /*Activatehardwareaccelerationforsmootheranimations*/
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Animate Background Image */
+@keyframes aitf {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}

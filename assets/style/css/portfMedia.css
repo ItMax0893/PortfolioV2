@@ -1,0 +1,90 @@
+@media screen and (max-width:1200px) {
+    .open-content .text {
+        margin-top: -15%;
+    }
+
+    .open-content img {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:960px) {
+
+    .open-content .text {
+        padding: 58% 5% 5% 5%;
+        margin-top: -17%;
+    }
+
+    .open-content img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .open-content .text {
+        padding: 70% 5% 5% 5%;
+    }
+
+    .open-content img {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .open-content .text {
+        padding: 80% 5% 5% 5%;
+        height: fit-content;
+    }
+
+    .open-content .text h1 {
+        font-size: 1.5em;
+    }
+.open-content .text p {
+    font-size: 0.8em;
+}
+    .open-content img {
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .portfolio {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .heder_portf {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .heder_portf h2 {
+        margin: 0;
+        font-weight: normal;
+        font-size: 50px;
+        letter-spacing: normal;
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        margin-left: 0;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
+@media screen and (max-width:450px) {
+.open-content .text {
+    padding: 100% 5% 5% 5%;
+    height: fit-content;
+}
+}

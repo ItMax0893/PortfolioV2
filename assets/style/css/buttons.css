@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono");
+body {
+  background-color: #2e2e2e;
+  font-family: "Share Tech Mono", monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #00ffb4;
+}
+
+.glitch-btn {
+  display: inline-block;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  color: #afafaf;
+  text-transform: uppercase;
+}
+
+.glitch-btn .mask {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  display: none;
+}
+
+.glitch-btn .mask span {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  top: -100%;
+}
+
+.glitch-btn:hover {
+  color: #4e4e4e;
+}
+
+.glitch-btn:hover:before {
+  background: #00ffb4;
+  transform: translateX(84%) scaleX(3) scaleY(0.8);
+  -webkit-transform: translateX(84%) scaleX(3) scaleY(0.8);
+  -moz-transform: translateX(84%) scaleX(3) scaleY(0.8);
+  -ms-transform: translateX(84%) scaleX(3) scaleY(0.8);
+  -o-transform: translateX(84%) scaleX(3) scaleY(0.8);
+}
+
+.glitch-btn:before {
+  content: "";
+  position: absolute;
+  left: -15%;
+  top: -20%;
+  background: #4e4e4e;
+  width: 80px;
+  height: 145%;
+  padding: 0px;
+  z-index: -1;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  -webkit-transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  -moz-transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  -ms-transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  -o-transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.glitch-btn:after {
+  content: "";
+  position: absolute;
+  left: -5%;
+  top: 105%;
+  background: #00ffb4;
+  width: 180px;
+  height: 10%;
+  padding: 0px;
+  z-index: -1;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  -webkit-transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  -moz-transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  -ms-transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  -o-transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.glitch-btn:hover:after {
+  background: #4e4e4e;
+  transform: translateX(-55%) translateY(-600%) rotate(90deg) scaleX(0.2);
+  -webkit-transform: translateX(-55%) translateY(-600%) rotate(90deg) scaleX(0.2);
+  -moz-transform: translateX(-55%) translateY(-600%) rotate(90deg) scaleX(0.2);
+  -ms-transform: translateX(-55%) translateY(-600%) rotate(90deg) scaleX(0.2);
+  -o-transform: translateX(-55%) translateY(-600%) rotate(90deg) scaleX(0.2);
+}
+
+.glitch-btn .mask1 {
+  height: 20%;
+  top: 19%;
+}
+
+.glitch-btn .mask2 {
+  height: 30%;
+  top: 35%;
+}
+
+.glitch-btn .mask3 {
+  height: 57%;
+  top: 63%;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.glitch-btn:hover .mask1 {
+  animation: glitchin1 0.2s 0.3s both;
+  -webkit-animation: glitchin1 0.2s 0.3s both;
+}
+
+.glitch-btn:hover .mask2 {
+  animation: glitchin2 0.2s 0.2s both;
+  -webkit-animation: glitchin2 0.2s 0.2s both;
+}
+
+.glitch-btn:hover .mask3 {
+  animation: glitchin1 0.2s 0.2s both;
+  -webkit-animation: glitchin1 0.2s 0.2s both;
+}
+
+.glitch-btn:hover .hidden {
+  animation: fade-in 0.1s 0.2s forwards;
+  -webkit-animation: fade-in 0.1s 0.2s forwards;
+}
+
+.glitch-btn:hover .text {
+  animation: fade-in 0.1s 0.2s forwards;
+  -webkit-animation: fade-in 0.1s 0.2s forwards;
+}
+
+.glitch-btn:hover .mask {
+  display: block;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes glitchin1 {
+  100% {
+    opacity: 0;
+    transform: translate(0px, 0px);
+    -webkit-transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+  }
+  95% {
+    opacity: 1;
+    transform: translate(0.5px, 0.05px);
+    -moz-transform: translate(0.5px, 0.05px);
+    -ms-transform: translate(0.5px, 0.05px);
+    -o-transform: translate(0.5px, 0.05px);
+  }
+  90% {
+    transform: translate(0.6px, -0.3px);
+    -moz-transform: translate(0.6px, -0.3px);
+    -ms-transform: translate(0.6px, -0.3px);
+    -o-transform: translate(0.6px, -0.3px);
+  }
+  85% {
+    transform: translate(1.2px, 0px);
+    -moz-transform: translate(1.2px, 0px);
+    -ms-transform: translate(1.2px, 0px);
+    -o-transform: translate(1.2px, 0px);
+  }
+  80% {
+    transform: translate(1.2px, 0.2px);
+    -moz-transform: translate(1.2px, 0.2px);
+    -ms-transform: translate(1.2px, 0.2px);
+    -o-transform: translate(1.2px, 0.2px);
+  }
+  75% {
+    transform: translate(0.5px, 1px);
+    -moz-transform: translate(0.5px, 1px);
+    -ms-transform: translate(0.5px, 1px);
+    -o-transform: translate(0.5px, 1px);
+  }
+  70% {
+    transform: translate(0.3px, 1.2px);
+    -moz-transform: translate(0.3px, 1.2px);
+    -ms-transform: translate(0.3px, 1.2px);
+    -o-transform: translate(0.3px, 1.2px);
+  }
+  65% {
+    transform: translate(-2.1px, 0.7px);
+    -moz-transform: translate(-2.1px, 0.7px);
+    -ms-transform: translate(-2.1px, 0.7px);
+    -o-transform: translate(-2.1px, 0.7px);
+  }
+  60% {
+    transform: translate(3.6px, 0.4px);
+    -moz-transform: translate(3.6px, 0.4px);
+    -ms-transform: translate(3.6px, 0.4px);
+    -o-transform: translate(3.6px, 0.4px);
+  }
+  55% {
+    transform: translate(0.45px, 1.8px);
+    -moz-transform: translate(0.45px, 1.8px);
+    -ms-transform: translate(0.45px, 1.8px);
+    -o-transform: translate(0.45px, 1.8px);
+  }
+  50% {
+    transform: translate(-3px, -1px);
+    -moz-transform: translate(-3px, -1px);
+    -ms-transform: translate(-3px, -1px);
+    -o-transform: translate(-3px, -1px);
+  }
+  45% {
+    transform: translate(-4.4px, 1.1px);
+    -moz-transform: translate(-4.4px, 1.1px);
+    -ms-transform: translate(-4.4px, 1.1px);
+    -o-transform: translate(-4.4px, 1.1px);
+  }
+  40% {
+    transform: translate(-4.2px, 2.4px);
+    -moz-transform: translate(-4.2px, 2.4px);
+    -ms-transform: translate(-4.2px, 2.4px);
+    -o-transform: translate(-4.2px, 2.4px);
+  }
+  35% {
+    transform: translate(2.6px, 1.3px);
+    -moz-transform: translate(2.6px, 1.3px);
+    -ms-transform: translate(2.6px, 1.3px);
+    -o-transform: translate(2.6px, 1.3px);
+  }
+  30% {
+    transform: translate(-1.4px, 2.8px);
+    -moz-transform: translate(-1.4px, 2.8px);
+    -ms-transform: translate(-1.4px, 2.8px);
+    -o-transform: translate(-1.4px, 2.8px);
+  }
+  25% {
+    transform: translate(6px, 0.75px);
+    -moz-transform: translate(6px, 0.75px);
+    -ms-transform: translate(6px, 0.75px);
+    -o-transform: translate(6px, 0.75px);
+  }
+  20% {
+    transform: translate(0px, -1.6px);
+    -moz-transform: translate(0px, -1.6px);
+    -ms-transform: translate(0px, -1.6px);
+    -o-transform: translate(0px, -1.6px);
+  }
+  15% {
+    transform: translate(-5.95px, -0.85px);
+    -moz-transform: translate(-5.95px, -0.85px);
+    -ms-transform: translate(-5.95px, -0.85px);
+    -o-transform: translate(-5.95px, -0.85px);
+  }
+  10% {
+    transform: translate(3.6px, 3.6px);
+    -moz-transform: translate(3.6px, 3.6px);
+    -ms-transform: translate(3.6px, 3.6px);
+    -o-transform: translate(3.6px, 3.6px);
+  }
+  5% {
+    transform: translate(-0.95px, -0.95px);
+    -moz-transform: translate(-0.95px, -0.95px);
+    -ms-transform: translate(-0.95px, -0.95px);
+    -o-transform: translate(-0.95px, -0.95px);
+  }
+  1% {
+    opacity: 1;
+  }
+}
+@keyframes glitchin2 {
+  100% {
+    opacity: 0;
+    transform: translate(0px, 0px);
+    -webkit-transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+}
+  95% {
+    opacity: 1;
+    transform: translate(-0.5px, -0.05px);
+    -webkit-transform: translate(-0.5px, -0.05px);
+    -moz-transform: translate(-0.5px, -0.05px);
+    -ms-transform: translate(-0.5px, -0.05px);
+    -o-transform: translate(-0.5px, -0.05px);
+}
+  90% {
+    transform: translate(-0.6px, 0.3px);
+    -webkit-transform: translate(-0.6px, 0.3px);
+    -moz-transform: translate(-0.6px, 0.3px);
+    -ms-transform: translate(-0.6px, 0.3px);
+    -o-transform: translate(-0.6px, 0.3px);
+}
+  85% {
+    transform: translate(-1.2px, 0px);
+    -webkit-transform: translate(-1.2px, 0px);
+    -moz-transform: translate(-1.2px, 0px);
+    -ms-transform: translate(-1.2px, 0px);
+    -o-transform: translate(-1.2px, 0px);
+}
+  80% {
+    transform: translate(-1.2px, -0.2px);
+    -webkit-transform: translate(-1.2px, -0.2px);
+    -moz-transform: translate(-1.2px, -0.2px);
+    -ms-transform: translate(-1.2px, -0.2px);
+    -o-transform: translate(-1.2px, -0.2px);
+}
+  75% {
+    transform: translate(-0.5px, -1px);
+    -webkit-transform: translate(-0.5px, -1px);
+    -moz-transform: translate(-0.5px, -1px);
+    -ms-transform: translate(-0.5px, -1px);
+    -o-transform: translate(-0.5px, -1px);
+}
+  70% {
+    transform: translate(-0.3px, -1.2px);
+    -webkit-transform: translate(-0.3px, -1.2px);
+    -moz-transform: translate(-0.3px, -1.2px);
+    -ms-transform: translate(-0.3px, -1.2px);
+    -o-transform: translate(-0.3px, -1.2px);
+}
+  65% {
+    transform: translate(2.1px, -0.7px);
+    -webkit-transform: translate(2.1px, -0.7px);
+    -moz-transform: translate(2.1px, -0.7px);
+    -ms-transform: translate(2.1px, -0.7px);
+    -o-transform: translate(2.1px, -0.7px);
+}
+  60% {
+    transform: translate(-3.6px, -0.4px);
+    -webkit-transform: translate(-3.6px, -0.4px);
+    -moz-transform: translate(-3.6px, -0.4px);
+    -ms-transform: translate(-3.6px, -0.4px);
+    -o-transform: translate(-3.6px, -0.4px);
+}
+  55% {
+    transform: translate(-0.45px, -1.8px);
+    -webkit-transform: translate(-0.45px, -1.8px);
+    -moz-transform: translate(-0.45px, -1.8px);
+    -ms-transform: translate(-0.45px, -1.8px);
+    -o-transform: translate(-0.45px, -1.8px);
+}
+  50% {
+    transform: translate(3px, 1px);
+    -webkit-transform: translate(3px, 1px);
+    -moz-transform: translate(3px, 1px);
+    -ms-transform: translate(3px, 1px);
+    -o-transform: translate(3px, 1px);
+}
+  45% {
+    transform: translate(4.4px, -1.1px);
+    -webkit-transform: translate(4.4px, -1.1px);
+    -moz-transform: translate(4.4px, -1.1px);
+    -ms-transform: translate(4.4px, -1.1px);
+    -o-transform: translate(4.4px, -1.1px);
+}
+  40% {
+    transform: translate(4.2px, -2.4px);
+    -webkit-transform: translate(4.2px, -2.4px);
+    -moz-transform: translate(4.2px, -2.4px);
+    -ms-transform: translate(4.2px, -2.4px);
+    -o-transform: translate(4.2px, -2.4px);
+}
+  35% {
+    transform: translate(-2.6px, -1.3px);
+    -webkit-transform: translate(-2.6px, -1.3px);
+    -moz-transform: translate(-2.6px, -1.3px);
+    -ms-transform: translate(-2.6px, -1.3px);
+    -o-transform: translate(-2.6px, -1.3px);
+}
+  30% {
+    transform: translate(1.4px, -2.8px);
+    -webkit-transform: translate(1.4px, -2.8px);
+    -moz-transform: translate(1.4px, -2.8px);
+    -ms-transform: translate(1.4px, -2.8px);
+    -o-transform: translate(1.4px, -2.8px);
+}
+  25% {
+    transform: translate(-6px, -0.75px);
+    -webkit-transform: translate(-6px, -0.75px);
+    -moz-transform: translate(-6px, -0.75px);
+    -ms-transform: translate(-6px, -0.75px);
+    -o-transform: translate(-6px, -0.75px);
+}
+  20% {
+    transform: translate(0px, 1.6px);
+    -webkit-transform: translate(0px, 1.6px);
+    -moz-transform: translate(0px, 1.6px);
+    -ms-transform: translate(0px, 1.6px);
+    -o-transform: translate(0px, 1.6px);
+}
+  15% {
+    transform: translate(5.95px, 0.85px);
+    -webkit-transform: translate(5.95px, 0.85px);
+    -moz-transform: translate(5.95px, 0.85px);
+    -ms-transform: translate(5.95px, 0.85px);
+    -o-transform: translate(5.95px, 0.85px);
+}
+  10% {
+    transform: translate(-3.6px, -3.6px);
+    -webkit-transform: translate(-3.6px, -3.6px);
+    -moz-transform: translate(-3.6px, -3.6px);
+    -ms-transform: translate(-3.6px, -3.6px);
+    -o-transform: translate(-3.6px, -3.6px);
+}
+  5% {
+    transform: translate(0.95px, 0.95px);
+    -webkit-transform: translate(0.95px, 0.95px);
+    -moz-transform: translate(0.95px, 0.95px);
+    -ms-transform: translate(0.95px, 0.95px);
+    -o-transform: translate(0.95px, 0.95px);
+}
+  1% {
+    opacity: 1;
+  }
+}

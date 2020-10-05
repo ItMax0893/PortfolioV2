@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+<g xmlns="http://www.w3.org/2000/svg">
+	<g>
+		<g>
+			<g>
+				<g>
+					<g>
+						<g>
+							<g>
+								<g>
+									<g>
+										<g>
+											<circle style="" cx="256" cy="256" r="256" fill="#afb6c6" data-original="#555a66"/>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<path style="" d="M512,256c0-6.388-0.242-12.718-0.702-18.988L397.628,123.341L43.086,256.528l113.218,113.217   l0.29,48.063l94.125,94.125c1.757,0.036,3.516,0.067,5.281,0.067C397.385,512,512,397.385,512,256z" fill="#6d7176" data-original="#333940" class=""/>
+	<g>
+		<polygon style="" points="156.594,417.808 397.628,123.341 167.579,307.6   " fill="#afb4c8" data-original="#afb4c8" class=""/>
+	</g>
+	<g>
+		<polygon style="" points="397.628,123.341 43.086,256.528 299.023,368.723   " fill="#ffffff" data-original="#ffffff" class=""/>
+	</g>
+	<g>
+		<polygon style="" points="397.628,123.341 255.905,176.581 255.905,349.821 299.023,368.723   " fill="#e9edf5" data-original="#e9edf5" class=""/>
+	</g>
+	<g>
+		<polygon style="" points="397.628,123.341 128.883,294.139 206.274,328.065   " fill="#e9edf5" data-original="#e9edf5" class=""/>
+	</g>
+	<g>
+		<polygon style="" points="255.905,213.412 255.905,274.966 397.628,123.341   " fill="#dce1eb" data-original="#dce1eb" class=""/>
+	</g>
+	<g>
+		<polygon style="" points="128.883,294.139 156.594,417.808 206.274,328.065   " fill="#bec3d2" data-original="#bec3d2"/>
+	</g>
+</g>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g></svg>

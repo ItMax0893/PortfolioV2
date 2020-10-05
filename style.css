@@ -1,0 +1,423 @@
+
+body{
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    position: relative;
+}
+.center{
+    position: absolute;
+    z-index: 2;
+    right: 10%;
+    top: 10%;
+   
+}
+
+
+
+
+
+.prevue{
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+    
+}
+.prevue_bg{
+    position: absolute;
+    background-image: url(assets/img/893-1800x800.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 110%;
+    height: 110%;
+    transition: all 0.1s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn{
+   position: absolute;
+
+}
+.glitch-btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.btn_first{
+    transform:translateX(700px);
+    -webkit-transform:translateX(700px);
+    -moz-transform:translateX(700px);
+    -ms-transform:translateX(700px);
+    -o-transform:translateX(700px);
+}
+.btn_second {
+    transform: translateX(1000px);
+    -webkit-transform: translateX(1000px);
+    -moz-transform: translateX(1000px);
+    -ms-transform: translateX(1000px);
+    -o-transform: translateX(1000px);
+}
+.btn_three{
+    transform: translateX(1300px);
+    -webkit-transform: translateX(1300px);
+    -moz-transform: translateX(1300px);
+    -ms-transform: translateX(1300px);
+    -o-transform: translateX(1300px);
+}
+.btn_for {
+    transform: translateX(1600px);
+    -webkit-transform: translateX(1600px);
+    -moz-transform: translateX(1600px);
+    -ms-transform: translateX(1600px);
+    -o-transform: translateX(1600px);
+}
+.buttons{
+    transform: translateY(-100px);
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+}
+
+/*==========contactsIMG=========*/
+.contacts_aboutMe{
+    height: fit-content;
+    min-height: 100vh;
+    width: 100%;
+    background: url('./assets/img/contactsIMG.jpg');
+    background-size: cover;
+    display: flex;
+    color: rgba(255, 255, 255, 0.74);
+    position: relative;
+}
+.aboutMe{
+    width: 65%;
+    text-align: left;
+    padding:10px 40px;
+
+}
+.informationMe{
+    width: 100%;
+}
+.contacts{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.contacts_point{
+    position: relative;
+    width: fit-content;
+    margin-bottom: -20px;
+    margin-right: 0;
+}
+
+.contacts_point_header{
+    font-size: 20px;
+    width: fit-content;
+    text-align: left;
+    margin-left: 100px;
+    text-transform: uppercase;
+}
+.contacts_point_text{
+    font-size: 15px;
+    position: relative;
+    display:block;
+    color:rgb(100, 197, 158);
+    text-align: left;
+    margin-left: 100px;
+
+}
+.con_tel::before {
+    content: " ";
+    position: absolute;
+    left: -100px;
+    top: -10px;
+    width: 40px;
+    height: 40px;
+    background: url(assets/img/icons/001-phone.svg);
+    background-size: cover;
+}
+.con_tel::after {
+    content: " ";
+    position: absolute;
+    left: -50px;
+    top: -10px;
+    width: 40px;
+    height: 40px;
+    background: url(assets/img/icons/paper-plane.svg);
+    background-size: cover;
+}
+.con_mail::before {
+    content: " ";
+    position: absolute;
+    left: -100px;
+    top: -10px;
+    width: 40px;
+    height: 40px;
+    background: url(assets/img/icons/gmail.svg);
+    background-size: cover;
+}
+.con_LI::before {
+    content: " ";
+    position: absolute;
+    left: -100px;
+    top: -10px;
+    width: 40px;
+    height: 40px;
+    background: url(assets/img/icons/linkedin.svg);
+    background-size: cover;
+}
+.con_git::before {
+    content: " ";
+    position: absolute;
+    left: -100px;
+    top: -10px;
+    width: 40px;
+    height: 40px;
+    background: url(assets/img/icons/github.svg);
+    background-size: cover;
+}
+.con_resume::before {
+    content: " ";
+    position: absolute;
+    left: -100px;
+    top: -10px;
+    width: 40px;
+    height: 40px;
+    background: url(assets/img/icons/curriculum-vitae.svg);
+    background-size: cover;
+}
+
+
+
+/* =========== About ME ===============*/
+.about{
+    display: flex;
+}
+
+
+.head_edukation{
+    font-size: 35px;
+    margin-top: -30px;
+}
+.informationMe{
+    margin-left: 50px;
+}
+
+.about_point_header{
+     font-size: 20px;
+     min-width: 600px;
+     text-align: left;
+     margin: -15px 0px;
+     text-transform: uppercase;
+}
+.about_point_text{
+     font-size: 15px;
+     position: relative;
+     display:block;
+     color:rgb(100, 197, 158);
+     text-align: left;
+     padding-bottom: 20px;
+
+}
+.curr_yer::before {
+    content: '2020';
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    color:white;
+    left: -70px;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color:rgb(100, 197, 158);
+    background-size: cover;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.dec_yer::before {
+     content: '2019';
+     text-align: center;
+     padding-top: 10px;
+     position: absolute;
+     color:white;
+     left: -70px;
+     top: -20px;
+     width: 40px;
+     height: 40px;
+     border-radius: 100%;
+     background-color:rgb(100, 197, 158);
+     background-size: cover;
+     -webkit-border-radius: 100%;
+     -moz-border-radius: 100%;
+     -ms-border-radius: 100%;
+     -o-border-radius: 100%;
+}
+.dec_yer_f::before{
+     content: '2015';
+text-align: center;
+padding-top: 10px;
+position: absolute;
+color:white;
+left: -70px;
+top: -20px;
+width: 40px;
+height: 40px;
+border-radius: 100%;
+background-color:rgb(100, 197, 158);
+background-size: cover;
+-webkit-border-radius: 100%;
+-moz-border-radius: 100%;
+-ms-border-radius: 100%;
+-o-border-radius: 100%;
+}
+
+
+
+
+
+
+
+.headers_block{
+    font-size: 50px;
+    padding-bottom: -30px;
+    padding-top: -30px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.contacts_block{
+    background:url('assets/img/cont.jpg');
+    background-size:cover;
+    position: absolute;
+    display: none;
+    top: 100vh;
+    right: 50%;
+    padding-bottom: 40px;
+    transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -o-transform: translateX(50%);
+}
+.contacts_block .contacts{
+    width: 100%;
+}
+
+
+
+
+
+/*====================ЦИТАТА=======================================*/
+.quote
+{
+    background-color: #575757;
+    height: 200px;
+    display: flex;
+ 
+    align-items: center;
+}
+.before_contacts{
+    display: none;
+}
+blockquote {
+   
+    margin: 0;
+    background: #575757;
+    color: #bbbbbb;
+    padding: 20px 30px;
+    position: relative;
+    border-left: 35px solid #575757;
+    width: 45%;
+    margin: 0 auto;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-family: serif;
+    position: absolute;
+    left: -29px;
+    top: 5px;
+    color: #888888;
+    font-size: 50px;
+    text-shadow: 1px 2px 0 white;
+}
+
+blockquote p {
+    margin: 0 0 16px;
+    font-size: 20px;
+    letter-spacing: .05em;
+    line-height: 1.4;
+}
+
+blockquote cite {
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 80px;
+}
+
+/*===============scroll==================*/
+ ::-webkit-scrollbar {
+     width: 10px;
+     height: auto;
+ }
+
+ ::-webkit-scrollbar-button {
+     width: 0px;
+     height: 0px;
+ }
+
+ ::-webkit-scrollbar-thumb {
+     background: #0080ff;
+     border: 0px none #ffffff;
+     border-radius: 50px;
+     background: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #09123c), color-stop(1.00, #0e3e8d));
+     background: -webkit-linear-gradient(#09123c, #0e3e8d);
+     background: -moz-linear-gradient(#09123c, #0e3e8d);
+     background: -o-linear-gradient(#09123c, #0e3e8d);
+     background: -ms-linear-gradient(#09123c, #0e3e8d);
+     background: linear-gradient(#09123c, #0e3e8d);
+ }
+
+ ::-webkit-scrollbar-thumb:hover {
+     background: #0000a0;
+ }
+
+ ::-webkit-scrollbar-thumb:active {
+     background: #000000;
+ }
+
+ ::-webkit-scrollbar-track {
+     background: #252525;
+     border: 0px none #ffffff;
+     border-radius: 50px;
+ }
+
+ ::-webkit-scrollbar-corner {
+     background: transparent;
+ }
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    color:rgba(255, 255, 255, 0.623);
+    margin-top: -60px;
+}

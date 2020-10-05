@@ -1,0 +1,319 @@
+.portfolio{
+    display: flex;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.heder_portf{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 10%;
+
+}
+.heder_portf h2 {
+    color:rgba(255, 255, 255, 0.479);
+    font-size: 70px;
+    letter-spacing: 15px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    margin-left: -200px;
+}
+.card-column {
+    width: 50%;
+    float: left;
+    padding: 4%;
+    box-sizing: border-box;
+}
+
+.column-1 {
+    padding-top: 100px;
+}
+
+.card {
+    width: 92%;
+    max-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background: #EB5160;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+}
+
+.border {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 6px;
+    border: 1px solid #fff;
+    opacity: 0.5;
+    left: -6px;
+    top: -6px;
+}
+
+.card h1 {
+    position: relative;
+    padding: 190px 0px 100px 10px;
+    width: 90%;
+}
+
+.card>img {
+    width: 90%;
+    position: absolute;
+    top: -6%;
+    left: -6%;
+}
+
+.card-color-0 {
+    background-color: rgb(42, 77, 31);
+}
+
+.card-color-1 {
+    background-color: rgb(146, 57, 52);
+}
+
+.card-color-2 {
+    background-color: #8DAA91;
+}
+
+.card-color-3 {
+    background-color: #888DA7;
+}
+
+/* The cover (expanding background) */
+.cover {
+    position: fixed;
+    background: #EB5160;
+    z-index: 100;
+    transform-origin: 50% 50%;
+}
+
+/* The open page content */
+.open-content {
+    top: 0;
+    width: 100%;
+    height: 101vh;
+    z-index: 110;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+        position: fixed;
+
+}
+.url_link{
+    display: none;
+}
+.open-content img {
+    position: relative;
+    width: 40%;
+    margin-left: 3%;
+    margin-top: 20px;
+    z-index: 5;
+}
+
+.open-content .text {
+        background: rgba(54, 54, 54, 0.397);
+        margin-top: -20%;
+        padding: 42% 5% 5% 5%;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        height: 400px;
+}
+.card-column .card_text {
+    display: none;
+}
+.text h1{
+    margin-top: -300px;
+}
+
+.open-content .text h1,
+.open-content .text p {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.close-content {
+    display: block;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 30px;
+    height: 30px;
+}
+
+.close-content span {
+    background: #222;
+    width: 30px;
+    height: 6px;
+    display: block;
+    position: absolute;
+    top: 14px;
+    z-index: 30;
+}
+
+.x-1 {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.x-2 {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+
+/* 
+** Transitions
+*/
+
+.card {
+    transition: opacity 200ms linear 320ms, transform 200ms ease-out 320ms;
+    -webkit-transition: opacity 200ms linear 320ms, transform 200ms ease-out 320ms;
+    -moz-transition: opacity 200ms linear 320ms, transform 200ms ease-out 320ms;
+    -ms-transition: opacity 200ms linear 320ms, transform 200ms ease-out 320ms;
+    -o-transition: opacity 200ms linear 320ms, transform 200ms ease-out 320ms;
+}
+
+.border {
+    transition: opacity 200ms linear, transform 200ms ease-out;
+    -webkit-transition: opacity 200ms linear, transform 200ms ease-out;
+    -moz-transition: opacity 200ms linear, transform 200ms ease-out;
+    -ms-transition: opacity 200ms linear, transform 200ms ease-out;
+    -o-transition: opacity 200ms linear, transform 200ms ease-out;
+}
+
+.card img {
+    transition: opacity 200ms linear 0ms, transform 200ms ease-in 0ms;
+    -webkit-transition: opacity 200ms linear 0ms, transform 200ms ease-in 0ms;
+    -moz-transition: opacity 200ms linear 0ms, transform 200ms ease-in 0ms;
+    -ms-transition: opacity 200ms linear 0ms, transform 200ms ease-in 0ms;
+    -o-transition: opacity 200ms linear 0ms, transform 200ms ease-in 0ms;
+}
+
+.card h1 {
+    transform: translate3d(20%, 0px, 0px);
+    transition: opacity 200ms linear 120ms, transform 200ms ease-in 120ms;
+    -webkit-transition: opacity 200ms linear 120ms, transform 200ms ease-in 120ms;
+    -moz-transition: opacity 200ms linear 120ms, transform 200ms ease-in 120ms;
+    -ms-transition: opacity 200ms linear 120ms, transform 200ms ease-in 120ms;
+    -o-transition: opacity 200ms linear 120ms, transform 200ms ease-in 120ms;
+    -webkit-transform: translate3d(20%, 0px, 0px);
+    -moz-transform: translate3d(20%, 0px, 0px);
+    -ms-transform: translate3d(20%, 0px, 0px);
+    -o-transform: translate3d(20%, 0px, 0px);
+}
+
+/* Clicked card */
+.card.clicked img {
+    transform: translate3d(0px, -40px, 0px);
+    opacity: 0;
+    -webkit-transform: translate3d(0px, -40px, 0px);
+    -moz-transform: translate3d(0px, -40px, 0px);
+    -ms-transform: translate3d(0px, -40px, 0px);
+    -o-transform: translate3d(0px, -40px, 0px);
+}
+
+.card.clicked .border {
+    opacity: 0;
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+}
+
+.card.out,
+.card.out img {
+    transform: translate3d(0px, -40px, 0px);
+    opacity: 0;
+    -webkit-transform: translate3d(0px, -40px, 0px);
+    -moz-transform: translate3d(0px, -40px, 0px);
+    -ms-transform: translate3d(0px, -40px, 0px);
+    -o-transform: translate3d(0px, -40px, 0px);
+}
+
+.card.out h1,
+.card.clicked h1 {
+    transform: translate3d(20%, -40px, 0px);
+    opacity: 0;
+    -webkit-transform: translate3d(20%, -40px, 0px);
+    -moz-transform: translate3d(20%, -40px, 0px);
+    -ms-transform: translate3d(20%, -40px, 0px);
+    -o-transform: translate3d(20%, -40px, 0px);
+}
+
+.cover {
+    transition: transform 300ms ease-in-out;
+    -webkit-transition: transform 300ms ease-in-out;
+    -moz-transition: transform 300ms ease-in-out;
+    -ms-transition: transform 300ms ease-in-out;
+    -o-transition: transform 300ms ease-in-out;
+}
+
+.open-content {
+    transition: opacity 200ms linear 0ms;
+    -webkit-transition: opacity 200ms linear 0ms;
+    -moz-transition: opacity 200ms linear 0ms;
+    -ms-transition: opacity 200ms linear 0ms;
+    -o-transition: opacity 200ms linear 0ms;
+}
+
+.open-content.open {
+    opacity: 1;
+    pointer-events: all;
+    transition-delay: 1000ms;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .card-column {
+        width: 90%;
+    }
+
+    .column-1 {
+        padding-top: 0px;
+    }
+
+    .open-content img {
+        margin-top: 40px;
+    }
+}
+
+
+
+.portfolio {
+    height: fit-content;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.portf_bg {
+    position: absolute;
+    background-image: url(/assets/img/portf_bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120%;
+    height: 120%;
+    transition: all 0.1s ease;
+    z-index: -2;
+}

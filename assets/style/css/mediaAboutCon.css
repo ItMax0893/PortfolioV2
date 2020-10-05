@@ -1,0 +1,167 @@
+@media screen and (max-width:1200px) {
+.aboutMe {
+    width: 55%;
+    margin-right: 100px;
+}
+.contacts_point_header{
+    width: fit-content;
+}
+.about_point_header{
+    min-width: 200px;
+}
+.contacts {
+    width: 45%;
+   }
+}
+@media screen and (max-width:1200px) {
+    .contacts_aboutMe{
+        display: block;
+    }
+    blockquote{
+        width: 80%;
+    }
+    .before_contacts{
+        display: flex;
+
+    }
+    .aboutMe {
+    margin: 0;
+        width:80%;
+        height: 100%;
+        position: relative;
+      
+}
+blockquote cite {
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 50px;
+}
+.informationMe{
+    position: absolute;
+    right: 50%;
+    transform:translate(75%);
+    -webkit-transform:translate(75%);
+    -moz-transform:translate(75%);
+    -ms-transform:translate(75%);
+    -o-transform:translate(75%);
+}
+.contacts {
+display: none;
+}
+.contacts_block {
+    padding-top: 5px;
+    position: relative;
+    display: block;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+
+}
+.contacts_block h2,
+.contacts_block h4{
+    color:white
+}
+.contacts_block_contacts{
+        margin-top: -50px;
+    font-size: 1em;
+    position: absolute;
+    right: 50%;
+    width: fit-content;
+    transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -o-transform: translateX(50%);
+}
+.contacts_point{
+    width: 100%;
+}
+}
+
+@media screen and (max-width:900px) {
+.informationMe {
+        top: 120%;
+}
+
+
+@media screen and (max-width:820px) {
+    .quote p {
+        font-size: 15px;
+    }
+    .quote{
+        height: 180px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .contacts_block {
+        max-height: fit-content;
+        
+    }
+
+    
+}
+
+
+
+.info_point h4{
+    font-size: 0.9em;
+}
+.head_edukation{
+    font-size:2.0em
+}
+}
+@media screen and (max-width:580px) {
+    .quote p {
+        font-size: 12px;
+    }
+    blockquote{
+        width: 90%;
+        padding:10px 20px;
+    }
+    .quote {
+        height: 130px;
+    }
+    .info_point h4 {
+        font-size: 0.8em;
+    }
+    .info_point p {
+        font-size: 0.8em;
+    }
+    .head_edukation {
+        font-size: 1.5em
+    }
+    
+    .contacts_point_text::before,
+    .contacts_point_text::after {
+        width: 30px;
+        height: 30px;
+    }
+    
+
+}
+@media screen and (max-width:480px) {
+.quote p {
+    font-size: 10px;
+}
+blockquote {
+    min-width: 98%;
+}
+.quote {
+    height: 120px;
+    padding: 10px 20px;
+}
+}
+@media screen and (max-width:400px) {
+    .info_point h4 {
+        font-size: 0.8em;
+    }
+
+    .info_point p {
+        font-size: 0.7em;
+    }
+
+    .head_edukation {
+        font-size: 1.5em
+    }
+}

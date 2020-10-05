@@ -184,12 +184,12 @@
     }
 
     .btn_first {
-        transform: translateX(30px);
-        -webkit-transform: translateX(30px);
-        -moz-transform: translateX(30px);
-        -ms-transform: translateX(30px);
-        -o-transform: translateX(30px);
-    }
+        transform: translateX(50px);
+        -webkit-transform: translateX(50px);
+        -moz-transform: translateX(50px);
+        -ms-transform: translateX(50px);
+        -o-transform: translateX(50px);
+}
 
     .btn_second {
         transform: translateX(150px);
@@ -248,12 +248,12 @@
     }
 
     .btn_first {
-        transform: translateX(25px);
-        -webkit-transform: translateX(25px);
-        -moz-transform: translateX(25px);
-        -ms-transform: translateX(25px);
-        -o-transform: translateX(25px);
-    }
+        transform: translateX(40px);
+        -webkit-transform: translateX(40px);
+        -moz-transform: translateX(40px);
+        -ms-transform: translateX(40px);
+        -o-transform: translateX(40px);
+}
 
     .btn_second {
         transform: translateX(125px);

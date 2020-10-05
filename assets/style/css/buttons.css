@@ -16,6 +16,14 @@ a {
   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
   color: #afafaf;
   text-transform: uppercase;
+  -webkit-transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  -moz-transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  -ms-transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  -o-transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 
 .glitch-btn .mask {
@@ -31,6 +39,10 @@ a {
   transform: translateX(-50%);
   width: 100%;
   top: -100%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
 
 .glitch-btn:hover {
@@ -159,73 +171,85 @@ a {
     -moz-transform: translate(0.5px, 0.05px);
     -ms-transform: translate(0.5px, 0.05px);
     -o-transform: translate(0.5px, 0.05px);
-  }
+    -webkit-transform: translate(0.5px, 0.05px);
+}
   90% {
     transform: translate(0.6px, -0.3px);
     -moz-transform: translate(0.6px, -0.3px);
     -ms-transform: translate(0.6px, -0.3px);
     -o-transform: translate(0.6px, -0.3px);
-  }
+    -webkit-transform: translate(0.6px, -0.3px);
+}
   85% {
     transform: translate(1.2px, 0px);
     -moz-transform: translate(1.2px, 0px);
     -ms-transform: translate(1.2px, 0px);
     -o-transform: translate(1.2px, 0px);
-  }
+    -webkit-transform: translate(1.2px, 0px);
+}
   80% {
     transform: translate(1.2px, 0.2px);
     -moz-transform: translate(1.2px, 0.2px);
     -ms-transform: translate(1.2px, 0.2px);
     -o-transform: translate(1.2px, 0.2px);
-  }
+    -webkit-transform: translate(1.2px, 0.2px);
+}
   75% {
     transform: translate(0.5px, 1px);
     -moz-transform: translate(0.5px, 1px);
     -ms-transform: translate(0.5px, 1px);
     -o-transform: translate(0.5px, 1px);
-  }
+    -webkit-transform: translate(0.5px, 1px);
+}
   70% {
     transform: translate(0.3px, 1.2px);
     -moz-transform: translate(0.3px, 1.2px);
     -ms-transform: translate(0.3px, 1.2px);
     -o-transform: translate(0.3px, 1.2px);
-  }
+    -webkit-transform: translate(0.3px, 1.2px);
+}
   65% {
     transform: translate(-2.1px, 0.7px);
     -moz-transform: translate(-2.1px, 0.7px);
     -ms-transform: translate(-2.1px, 0.7px);
     -o-transform: translate(-2.1px, 0.7px);
-  }
+    -webkit-transform: translate(-2.1px, 0.7px);
+}
   60% {
     transform: translate(3.6px, 0.4px);
     -moz-transform: translate(3.6px, 0.4px);
     -ms-transform: translate(3.6px, 0.4px);
     -o-transform: translate(3.6px, 0.4px);
-  }
+    -webkit-transform: translate(3.6px, 0.4px);
+}
   55% {
     transform: translate(0.45px, 1.8px);
     -moz-transform: translate(0.45px, 1.8px);
     -ms-transform: translate(0.45px, 1.8px);
     -o-transform: translate(0.45px, 1.8px);
-  }
+    -webkit-transform: translate(0.45px, 1.8px);
+}
   50% {
     transform: translate(-3px, -1px);
     -moz-transform: translate(-3px, -1px);
     -ms-transform: translate(-3px, -1px);
     -o-transform: translate(-3px, -1px);
-  }
+    -webkit-transform: translate(-3px, -1px);
+}
   45% {
     transform: translate(-4.4px, 1.1px);
     -moz-transform: translate(-4.4px, 1.1px);
     -ms-transform: translate(-4.4px, 1.1px);
     -o-transform: translate(-4.4px, 1.1px);
-  }
+    -webkit-transform: translate(-4.4px, 1.1px);
+}
   40% {
     transform: translate(-4.2px, 2.4px);
     -moz-transform: translate(-4.2px, 2.4px);
     -ms-transform: translate(-4.2px, 2.4px);
     -o-transform: translate(-4.2px, 2.4px);
-  }
+    -webkit-transform: translate(-4.2px, 2.4px);
+}
   35% {
     transform: translate(2.6px, 1.3px);
     -moz-transform: translate(2.6px, 1.3px);

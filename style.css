@@ -1,29 +1,30 @@
-
-body{
+body {
     width: 100%;
     max-width: 2000px;
     margin: 0 auto;
     position: relative;
 }
-.center{
+
+.center {
     position: absolute;
     z-index: 2;
     right: 10%;
     top: 10%;
-   
+
 }
 
 
 
 
 
-.prevue{
-        height: 100vh;
-        position: relative;
-        overflow: hidden;
-    
+.prevue {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
 }
-.prevue_bg{
+
+.prevue_bg {
     position: absolute;
     background-image: url(assets/img/893-1800x800.jpg);
     background-position: center center;
@@ -32,6 +33,10 @@ body{
     width: 110%;
     height: 110%;
     transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
 }
 
 
@@ -47,22 +52,25 @@ body{
 
 
 
-.btn{
-   position: absolute;
+.btn {
+    position: absolute;
 
 }
-.glitch-btn{
+
+.glitch-btn {
     position: absolute;
     top: 0;
     left: 0;
 }
-.btn_first{
-    transform:translateX(700px);
-    -webkit-transform:translateX(700px);
-    -moz-transform:translateX(700px);
-    -ms-transform:translateX(700px);
-    -o-transform:translateX(700px);
+
+.btn_first {
+    transform: translateX(700px);
+    -webkit-transform: translateX(700px);
+    -moz-transform: translateX(700px);
+    -ms-transform: translateX(700px);
+    -o-transform: translateX(700px);
 }
+
 .btn_second {
     transform: translateX(1000px);
     -webkit-transform: translateX(1000px);
@@ -70,13 +78,15 @@ body{
     -ms-transform: translateX(1000px);
     -o-transform: translateX(1000px);
 }
-.btn_three{
+
+.btn_three {
     transform: translateX(1300px);
     -webkit-transform: translateX(1300px);
     -moz-transform: translateX(1300px);
     -ms-transform: translateX(1300px);
     -o-transform: translateX(1300px);
 }
+
 .btn_for {
     transform: translateX(1600px);
     -webkit-transform: translateX(1600px);
@@ -84,7 +94,8 @@ body{
     -ms-transform: translateX(1600px);
     -o-transform: translateX(1600px);
 }
-.buttons{
+
+.buttons {
     transform: translateY(-100px);
     -webkit-transform: translateY(-100px);
     -moz-transform: translateY(-100px);
@@ -93,7 +104,7 @@ body{
 }
 
 /*==========contactsIMG=========*/
-.contacts_aboutMe{
+.contacts_aboutMe {
     height: fit-content;
     min-height: 100vh;
     width: 100%;
@@ -103,43 +114,53 @@ body{
     color: rgba(255, 255, 255, 0.74);
     position: relative;
 }
-.aboutMe{
+
+.aboutMe {
     width: 65%;
     text-align: left;
-    padding:10px 40px;
+    padding: 10px 40px;
 
 }
-.informationMe{
+
+.informationMe {
     width: 100%;
 }
-.contacts{
+
+.contacts {
     width: 35%;
     display: flex;
     flex-direction: column;
 }
-.contacts_point{
+
+.contacts_point {
     position: relative;
     width: fit-content;
     margin-bottom: -20px;
     margin-right: 0;
 }
 
-.contacts_point_header{
+.contacts_point_header {
     font-size: 20px;
     width: fit-content;
     text-align: left;
     margin-left: 100px;
     text-transform: uppercase;
 }
-.contacts_point_text{
+
+.contacts_point_text {
     font-size: 15px;
     position: relative;
-    display:block;
-    color:rgb(100, 197, 158);
+    display: block;
+    color: rgb(100, 197, 158);
     text-align: left;
     margin-left: 100px;
 
 }
+
+.con_LI {
+    margin-bottom: 20px;
+}
+
 .con_tel::before {
     content: " ";
     position: absolute;
@@ -150,6 +171,7 @@ body{
     background: url(assets/img/icons/001-phone.svg);
     background-size: cover;
 }
+
 .con_tel::after {
     content: " ";
     position: absolute;
@@ -160,6 +182,7 @@ body{
     background: url(assets/img/icons/paper-plane.svg);
     background-size: cover;
 }
+
 .con_mail::before {
     content: " ";
     position: absolute;
@@ -170,6 +193,7 @@ body{
     background: url(assets/img/icons/gmail.svg);
     background-size: cover;
 }
+
 .con_LI::before {
     content: " ";
     position: absolute;
@@ -180,6 +204,7 @@ body{
     background: url(assets/img/icons/linkedin.svg);
     background-size: cover;
 }
+
 .con_git::before {
     content: " ";
     position: absolute;
@@ -190,6 +215,7 @@ body{
     background: url(assets/img/icons/github.svg);
     background-size: cover;
 }
+
 .con_resume::before {
     content: " ";
     position: absolute;
@@ -204,97 +230,102 @@ body{
 
 
 /* =========== About ME ===============*/
-.about{
+.about {
     display: flex;
 }
 
 
-.head_edukation{
+.head_edukation {
     font-size: 35px;
     margin-top: -30px;
 }
-.informationMe{
+
+.informationMe {
     margin-left: 50px;
 }
 
-.about_point_header{
-     font-size: 20px;
-     min-width: 600px;
-     text-align: left;
-     margin: -15px 0px;
-     text-transform: uppercase;
+.about_point_header {
+    font-size: 20px;
+    min-width: 600px;
+    text-align: left;
+    margin: -15px 0px;
+    text-transform: uppercase;
 }
-.about_point_text{
-     font-size: 15px;
-     position: relative;
-     display:block;
-     color:rgb(100, 197, 158);
-     text-align: left;
-     padding-bottom: 20px;
+
+.about_point_text {
+    font-size: 15px;
+    position: relative;
+    display: block;
+    color: rgb(100, 197, 158);
+    text-align: left;
+    padding-bottom: 20px;
 
 }
+
 .curr_yer::before {
     content: '2020';
     text-align: center;
     padding-top: 10px;
     position: absolute;
-    color:white;
+    color: white;
     left: -70px;
     top: -20px;
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    background-color:rgb(100, 197, 158);
+    background-color: rgb(100, 197, 158);
     background-size: cover;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
 }
+
 .dec_yer::before {
-     content: '2019';
-     text-align: center;
-     padding-top: 10px;
-     position: absolute;
-     color:white;
-     left: -70px;
-     top: -20px;
-     width: 40px;
-     height: 40px;
-     border-radius: 100%;
-     background-color:rgb(100, 197, 158);
-     background-size: cover;
-     -webkit-border-radius: 100%;
-     -moz-border-radius: 100%;
-     -ms-border-radius: 100%;
-     -o-border-radius: 100%;
-}
-.dec_yer_f::before{
-     content: '2015';
-text-align: center;
-padding-top: 10px;
-position: absolute;
-color:white;
-left: -70px;
-top: -20px;
-width: 40px;
-height: 40px;
-border-radius: 100%;
-background-color:rgb(100, 197, 158);
-background-size: cover;
--webkit-border-radius: 100%;
--moz-border-radius: 100%;
--ms-border-radius: 100%;
--o-border-radius: 100%;
+    content: '2019';
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    color: white;
+    left: -70px;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(100, 197, 158);
+    background-size: cover;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
 }
 
+.dec_yer_f::before {
+    content: '2015';
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    color: white;
+    left: -70px;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(100, 197, 158);
+    background-size: cover;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
 
 
 
 
 
 
-.headers_block{
+
+.headers_block {
     font-size: 50px;
     padding-bottom: -30px;
     padding-top: -30px;
@@ -302,9 +333,9 @@ background-size: cover;
     font-weight: 400;
 }
 
-.contacts_block{
-    background:url('assets/img/cont.jpg');
-    background-size:cover;
+.contacts_block {
+    background: url('assets/img/cont.jpg');
+    background-size: cover;
     position: absolute;
     display: none;
     top: 100vh;
@@ -316,7 +347,8 @@ background-size: cover;
     -ms-transform: translateX(50%);
     -o-transform: translateX(50%);
 }
-.contacts_block .contacts{
+
+.contacts_block .contacts {
     width: 100%;
 }
 
@@ -325,19 +357,18 @@ background-size: cover;
 
 
 /*====================ЦИТАТА=======================================*/
-.quote
-{
+.quote {
     background-color: #575757;
     height: 200px;
     display: flex;
- 
     align-items: center;
 }
-.before_contacts{
+
+.before_contacts {
     display: none;
 }
+
 blockquote {
-   
     margin: 0;
     background: #575757;
     color: #bbbbbb;
@@ -373,51 +404,55 @@ blockquote cite {
 }
 
 /*===============scroll==================*/
- ::-webkit-scrollbar {
-     width: 10px;
-     height: auto;
- }
+::-webkit-scrollbar {
+    width: 10px;
+    height: auto;
+}
 
- ::-webkit-scrollbar-button {
-     width: 0px;
-     height: 0px;
- }
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
 
- ::-webkit-scrollbar-thumb {
-     background: #0080ff;
-     border: 0px none #ffffff;
-     border-radius: 50px;
-     background: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #09123c), color-stop(1.00, #0e3e8d));
-     background: -webkit-linear-gradient(#09123c, #0e3e8d);
-     background: -moz-linear-gradient(#09123c, #0e3e8d);
-     background: -o-linear-gradient(#09123c, #0e3e8d);
-     background: -ms-linear-gradient(#09123c, #0e3e8d);
-     background: linear-gradient(#09123c, #0e3e8d);
- }
+::-webkit-scrollbar-thumb {
+    background: #0080ff;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #09123c), color-stop(1.00, #0e3e8d));
+    background: -webkit-linear-gradient(#09123c, #0e3e8d);
+    background: -moz-linear-gradient(#09123c, #0e3e8d);
+    background: -o-linear-gradient(#09123c, #0e3e8d);
+    background: -ms-linear-gradient(#09123c, #0e3e8d);
+    background: linear-gradient(#09123c, #0e3e8d);
+}
 
- ::-webkit-scrollbar-thumb:hover {
-     background: #0000a0;
- }
+::-webkit-scrollbar-thumb:hover {
+    background: #0000a0;
+}
 
- ::-webkit-scrollbar-thumb:active {
-     background: #000000;
- }
+::-webkit-scrollbar-thumb:active {
+    background: #000000;
+}
 
- ::-webkit-scrollbar-track {
-     background: #252525;
-     border: 0px none #ffffff;
-     border-radius: 50px;
- }
+::-webkit-scrollbar-track {
+    background: #252525;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
 
- ::-webkit-scrollbar-corner {
-     background: transparent;
- }
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
 
 
 
-footer{
+footer {
     display: flex;
     justify-content: space-around;
-    color:rgba(255, 255, 255, 0.623);
+    color: rgba(255, 255, 255, 0.623);
     margin-top: -60px;
 }
